@@ -26,12 +26,12 @@ Second function `isRecord` function checks is passed value a plain javascript ob
 ```js
 import { isObject } from "@maksims/is.js";
 
-isObject({})        // true
-isObject({
+isRecord({})        // true
+isRecord({
     PI: 3.14,
     sum: (a, b) => a + b
 })                  // true
-isObject(new Map()) // false
-isObject(20)        // false
-isObject([])        // false
+isRecord(new Map()) // false
+isRecord(20)        // false
+isRecord([])        // false
 ```
