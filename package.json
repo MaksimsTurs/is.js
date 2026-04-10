@@ -1,0 +1,17 @@
+{
+  "name": "@maksims/is.js",
+  "version": "1.0.2",
+  "description": "Simple utility library for check of javascript variables on specific type or condition.",
+  "license": "ISC",
+  "author": "MaksimsTurs",
+  "type": "module",
+  "types": "./types/is.d.ts",
+  "main": "./src/is.js",
+  "bugs": {
+    "url": "https://github.com/MaksimsTurs/is.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksimsTurs/is.js.git"
+  }
+}
